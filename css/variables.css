@@ -1,0 +1,13 @@
+:root{--bg:#08090b;--surface:#101216;--surface-2:#15171c;--text:#f2f3f0;--muted:#858a91;--line:#252930;--lime:#b8ff4a;--cyan:#69e7ff;--max:1440px;--gutter:clamp(20px,4vw,64px);--display:'Space Grotesk',sans-serif;--body:'Inter',sans-serif;--mono:'JetBrains Mono',monospace;--ease:cubic-bezier(.2,.75,.2,1)}
+
+/* Light / Night theme system */
+:root[data-theme="light"]{
+  --bg:#f4f6f2;
+  --surface:#e9ece7;
+  --surface-2:#dde2dc;
+  --text:#101216;
+  --muted:#626871;
+  --line:#cbd0c9;
+  --lime:#5c9d16;
+  --cyan:#087f99;
+}

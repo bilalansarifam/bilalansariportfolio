@@ -1,0 +1,5 @@
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .8s var(--ease),transform .8s var(--ease)}.reveal.visible{opacity:1;transform:none}.reveal-line{display:block;overflow:hidden}.reveal-line>span{display:block;transform:translateY(110%);transition:transform 1s var(--ease)}.hero.loaded .reveal-line>span{transform:none}.hero.loaded .reveal-line:nth-child(2)>span{transition-delay:.12s}.hero.loaded .eyebrow{animation:fadeUp .8s .2s both}.hero.loaded .hero-bottom{animation:fadeUp .8s .45s both}@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal,.reveal-line>span{opacity:1!important;transform:none!important;transition:none!important}.hero.loaded .eyebrow,.hero.loaded .hero-bottom{animation:none}}
+@media (prefers-reduced-motion: no-preference){
+  .hero-profile { animation: profile-float 7s ease-in-out infinite; }
+  @keyframes profile-float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+}
