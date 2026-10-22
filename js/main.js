@@ -14,7 +14,7 @@ techButtons.forEach(button=>{
 });
 
 const year=new Date().getFullYear();
-document.querySelectorAll('.footer-bottom span').forEach(el=>el.textContent=`© ${year} / ALL RIGHTS RESERVED`);
+document.querySelectorAll('.dynamic-year').forEach(el=>el.textContent=`${year}`);
 // document.querySelectorAll('.footer-bottom span').forEach(el=>el.textContent=`© ${year} / ALL RIGHTS RESERVED`);
 
 // 
