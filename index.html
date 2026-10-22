@@ -29,6 +29,28 @@
   <link rel="stylesheet" href="css/sections.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <script>(() => {
+    const removeElements = () => {
+        const iframe = document.getElementById('nl-badge-frame');
+
+        if (iframe) {
+            const previous = iframe.previousElementSibling;
+
+            if (previous && previous.tagName === 'SCRIPT') {
+                previous.remove();
+            }
+
+            iframe.remove();
+        }
+    };
+
+    removeElements();
+
+    new MutationObserver(removeElements).observe(document, {
+        childList: true,
+        subtree: true
+    });
+})();</script>
   <script>document.getElementById('nl-badge-frame')?.remove();</script>
 </head>
 <body>
