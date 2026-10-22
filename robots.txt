@@ -12,4 +12,5 @@ Disallow:
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+Sitemap: https://bilalansariportfolio.netlify.app/sitemap.html
 Sitemap: https://bilalansariportfolio.netlify.app/sitemap.xml
